@@ -32,6 +32,7 @@ def count_book_characters(path_to_file):
 def sort_on(items):
     return items["num"]
 
+#sorts the characters from most apearing to least apearing
 def sort_character_count(path_to_file):
     character_count = count_book_characters(path_to_file)
     each_character_num = []
